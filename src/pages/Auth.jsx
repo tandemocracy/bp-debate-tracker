@@ -46,8 +46,10 @@ export default function Auth() {
   );
 
   return (
-    <div style={{ maxWidth: 400, margin: "3rem auto", padding: "0 1rem" }}>
-      <h2 style={{ fontSize: 22, fontWeight: 500, marginBottom: "0.25rem" }}>BP Debate Tracker</h2>
+    <div style={{ maxWidth: 400, margin: "5rem auto", padding: "0 1.5rem" }}>
+      <div style={{ marginBottom: "0.4rem" }}>
+        <h2 style={{ fontSize: 22, fontWeight: 700, margin: 0, letterSpacing: "-0.4px" }}>BP Speech Tracker</h2>
+      </div>
       <p style={{ color: "var(--color-text-secondary)", fontSize: 14, marginBottom: "2rem" }}>
         {mode === "login" ? "Sign in to continue" : mode === "register" ? "Create your account" : "Reset your password"}
       </p>
